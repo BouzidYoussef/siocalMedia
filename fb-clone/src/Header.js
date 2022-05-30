@@ -2,7 +2,7 @@ import React from 'react';
 import "./Header.css";
 import SearchIcon from '@material-ui/icons/Search';
 import HomeIcon from '@material-ui/icons/Home';      
-import CallToActionIcon from '@material-ui/icons/CallToAction';    
+import SendTwoToneIcon from '@material-ui/icons/SendTwoTone';
 import SettingsInputSvideoIcon from '@material-ui/icons/SettingsInputSvideo';
 import FaceIcon from '@material-ui/icons/Face';
 
@@ -28,10 +28,10 @@ import FaceIcon from '@material-ui/icons/Face';
           <HomeIcon fontSize="large" /> 
         </div>
         <div className='header__option'>
-          <CallToActionIcon />
+          <SendTwoToneIcon fontSize='large' />
         </div>
         <div className='header__option'>
-          <SettingsInputSvideoIcon />
+          <SettingsInputSvideoIcon fontSize='large' />
         </div>
       </div>
     </div>
