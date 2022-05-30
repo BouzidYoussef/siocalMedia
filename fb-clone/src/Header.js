@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Header.css";
 import SearchIcon from '@material-ui/icons/Search';
-      function Header() {
+import HomeIcon from '@material-ui/icons/Home';      
+function Header() {
   return (
     <div className='header'> 
       <div className='header__left'></div>
@@ -13,7 +14,11 @@ import SearchIcon from '@material-ui/icons/Search';
         <input type="text" />
       </div>
       </div>
-      <div className='header__right'></div>
+      <div className='header__right'>
+        <div className='header__option'>
+          <HomeIcon fontSize="large" />
+        </div>
+      </div>
     </div>
   )
 }
