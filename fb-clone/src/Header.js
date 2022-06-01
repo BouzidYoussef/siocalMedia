@@ -20,7 +20,8 @@ import FaceIcon from '@material-ui/icons/Face';
       <div className='header__input'>
         
         <SearchIcon />
-        <input type="text" />
+        <input placeholder="recherche
+" type="text" />
       </div>
       </div>
       <div className='header__right'>
