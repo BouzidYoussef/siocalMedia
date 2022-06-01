@@ -50,12 +50,17 @@
 
 .header__option:hover > .MuiSvgIcon-root {
     color: #86C232;
-    border-bottom: 3px solid #86C232 ;
 }
 
 .header__option--active > .MuiSvgIcon-root{
     color: #86C232;
     
+}
+
+.header__option--activee:hover > .MuiSvgIcon-root{
+    border-bottom: 3px solid #86C232 ;
+    
+
 }
 
 .header__option--active{

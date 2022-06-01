@@ -28,10 +28,10 @@ import FaceIcon from '@material-ui/icons/Face';
         <div className='header__option header__option--active'>
           <HomeIcon fontSize="large" /> 
         </div>
-        <div className='header__option'>
+        <div className='header__option header__option--activee'>
           <SendTwoToneIcon fontSize='large' />
         </div>
-        <div className='header__option'>
+        <div className='header__option header__option--activee'>
           <SettingsInputSvideoIcon fontSize='large' />
         </div>
       </div>
