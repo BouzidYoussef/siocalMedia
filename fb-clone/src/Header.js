@@ -24,7 +24,7 @@ import FaceIcon from '@material-ui/icons/Face';
       </div>
       </div>
       <div className='header__right'>
-        <div className='header__option'>
+        <div className='header__option header__option--active'>
           <HomeIcon fontSize="large" /> 
         </div>
         <div className='header__option'>

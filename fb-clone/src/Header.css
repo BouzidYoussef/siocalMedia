@@ -36,6 +36,7 @@
     display: flex;
     flex: 1;
     justify-content: right;
+    margin-right: -200px;
 }
 
 .header__option > .MuiSvgIcon-root {
@@ -46,9 +47,33 @@
     color: black;
 }
 
+.header__option--active > .MuiSvgIcon-root{
+    color: black;
+}
+
 .header__option{
-    display: flex;
+   display: flex;
     align-items: right;
     padding: 0 30px ;
     cursor:pointer;
+}
+
+.header__info{
+   display: flex;
+    align-items: left;
+}
+
+.header__info{
+    margin-left: 10px;
+}
+
+.header__left{
+    display: flex;
+    justify-content: left;
+    margin-right: 250px;
+    margin-left: -80px;
+}
+
+.header__right{
+    display: flex;
 }
