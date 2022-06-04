@@ -4,7 +4,10 @@ import SideBarRow from './SideBarRow';
 function Sidebar() {
   return (
     <div className='sidebar'> 
-    <SideBarRow />
+    <SideBarRow title="Tendance" />
+    <SideBarRow title="dernières nouvelles"/>
+    <SideBarRow title="Sport"/>
+    <SideBarRow title="Santé"/>
     </div>
   )
 }
