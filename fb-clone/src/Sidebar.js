@@ -9,8 +9,8 @@ import DirectionsRunIcon from '@material-ui/icons/DirectionsRun';
 function Sidebar() {
   return (
     <div className='sidebar'> 
-    <SideBarRow src="https://www.facebook.com/photo/?fbid=5198555386849728&set=a.170558946316089" 
-    title="Bouzid Youssef" />
+    <SideBarRow  src="./fb-image" 
+ title="Bouzid Youssef" />
     <SideBarRow Icon={WhatshotIcon} title="Tendance" />
     <SideBarRow Icon={FiberNewIcon} title="dernières nouvelles"/>
     <SideBarRow Icon={SportsSoccerIcon} title="Sport"/>
