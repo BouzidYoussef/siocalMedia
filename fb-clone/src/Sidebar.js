@@ -1,13 +1,20 @@
 import React from 'react';
 import "./Sidebar.css";
 import SideBarRow from './SideBarRow';
+import WhatshotIcon from '@material-ui/icons/Whatshot';
+import FiberNewIcon from '@material-ui/icons/FiberNew';
+import SportsSoccerIcon from '@material-ui/icons/SportsSoccer';
+import DirectionsRunIcon from '@material-ui/icons/DirectionsRun';
+
 function Sidebar() {
   return (
     <div className='sidebar'> 
-    <SideBarRow title="Tendance" />
-    <SideBarRow title="dernières nouvelles"/>
-    <SideBarRow title="Sport"/>
-    <SideBarRow title="Santé"/>
+    <SideBarRow src="https://www.facebook.com/photo/?fbid=5198555386849728&set=a.170558946316089" 
+    title="Bouzid Youssef" />
+    <SideBarRow Icon={WhatshotIcon} title="Tendance" />
+    <SideBarRow Icon={FiberNewIcon} title="dernières nouvelles"/>
+    <SideBarRow Icon={SportsSoccerIcon} title="Sport"/>
+    <SideBarRow Icon={DirectionsRunIcon} title="Santé"/>
     </div>
   )
 }
