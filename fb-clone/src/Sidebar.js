@@ -6,6 +6,7 @@ import FiberNewIcon from '@material-ui/icons/FiberNew';
 import SportsSoccerIcon from '@material-ui/icons/SportsSoccer';
 import DirectionsRunIcon from '@material-ui/icons/DirectionsRun';
 
+let pic = [];
 function Sidebar() {
   return (
     <div className='sidebar'> 

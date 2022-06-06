@@ -1,10 +1,10 @@
 .SideBarRow{
-    
     display: flex;
     align-items: center;
     padding: 30px;
     cursor: pointer;
-    background-color: #222629;
+    background-color: #6B6E70;
+    border-radius: 2px;
 }
 
 .SideBarRow:hover{
