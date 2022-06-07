@@ -3,7 +3,7 @@
     padding: 15px 200px;
     justify-content: space-between;
     position: sticky;
-    background-color: #6B6E70;
+    background-color: #57BA98;
     z-index: 100;
     box-shadow: 0px 5px 8px -5px rgba(0,0,0,0.75);
 }
@@ -11,7 +11,7 @@
 .header__input{
     display: flex;
     align-items: center;
-    background-color: #61892F;
+    background-color: #F2F2F2;
     padding: 10px;
     margin-left: 10px;
     border-radius: 999px ;
@@ -34,7 +34,7 @@
 
 
 ::placeholder{
-    color: #474b4f;
+    color: #182628;
 }
 
 .header__right{
@@ -44,33 +44,22 @@
     margin-right: -200px;
 }
 
-.header__option > .MuiSvgIcon-root {
-    color: #61892F;
-}
+
 
 .header__option:hover > .MuiSvgIcon-root {
-    color: #86C232;
+    color: #182628;
 }
 
 .header__option--active > .MuiSvgIcon-root{
-    color: #86C232;
+    color: #F2F2F2;
     
 }
 
 .header__option--activee > .MuiSvgIcon-root{
-    color: #86C232;
+    color: #F2F2F2;
     
 }
 
-.header__option--activee:hover > .MuiSvgIcon-root{
-    border-bottom: 3px solid #86C232 ;
-    
-
-}
-
-.header__option--active:hover > .MuiSvgIcon-root{
-    border-bottom: 3px solid #86C232;
-}
 
 .header__option{
    display: flex;

@@ -5,6 +5,7 @@ import HomeIcon from '@material-ui/icons/Home';
 import SendTwoToneIcon from '@material-ui/icons/SendTwoTone';
 import SettingsInputSvideoIcon from '@material-ui/icons/SettingsInputSvideo';
 import FaceIcon from '@material-ui/icons/Face';
+import AnnouncementIcon from '@material-ui/icons/Announcement';
 
     function Header() {
   return (
@@ -30,6 +31,9 @@ import FaceIcon from '@material-ui/icons/Face';
         </div>
         <div className='header__option header__option--activee'>
           <SendTwoToneIcon fontSize='large' />
+        </div>
+        <div className='header__option header__option--activee'>
+          <AnnouncementIcon fontSize='large' />
         </div>
         <div className='header__option header__option--activee'>
           <SettingsInputSvideoIcon fontSize='large' />
