@@ -11,8 +11,9 @@ function MessageSender() {
         <div className='messageSender__bottom'>
         <Avatar />
         <form>
-            <input type="text"
-            placeholder={""} />
+            <input 
+                className='messageSender__input'
+                placeholder={"Mettre a jour"} />
         </form>
         </div>
     </div>
