@@ -7,6 +7,8 @@ function MessageSender() {
 
     const handleSubmit= e =>{
       e.preventDefault();
+
+      setInput("");
     }
   return (
     <div className='messageSender'>
@@ -18,7 +20,7 @@ function MessageSender() {
         <form>
             <input 
                 value={input}
-                onChange={e =>setInput(e.target.value) }
+                onChange={e =>setInput(e.target.value)}
                 className='messageSender__input'
                 placeholder={"Mettre a jour"} />
                 <button onClick={handleSubmit} type="submit">
