@@ -1,8 +1,13 @@
 import { Avatar } from '@material-ui/core';
-import React from 'react';
+import React, { useState } from 'react';
 import "./MessageSender.css";
 
 function MessageSender() {
+    const [input, setInput] = useState('')
+
+    const handleSubmit= e =>{
+      e.preventDefault();
+    }
   return (
     <div className='messageSender'>
         <div className='messageSender__top'>
@@ -14,6 +19,9 @@ function MessageSender() {
             <input 
                 className='messageSender__input'
                 placeholder={"Mettre a jour"} />
+                <button onClick={handleSubmit} type="submit">
+                  Hidden submit
+                </button>
         </form>
         </div>
     </div>
