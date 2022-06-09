@@ -1,3 +1,4 @@
+import { Avatar } from '@material-ui/core';
 import React from 'react';
 import "./Post.css";
 function Post({profilePic, username, timestamp, message}) {
