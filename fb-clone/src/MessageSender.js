@@ -17,6 +17,8 @@ function MessageSender() {
         <Avatar />
         <form>
             <input 
+                value={input}
+                onChange={e =>setInput(e.target.value) }
                 className='messageSender__input'
                 placeholder={"Mettre a jour"} />
                 <button onClick={handleSubmit} type="submit">
