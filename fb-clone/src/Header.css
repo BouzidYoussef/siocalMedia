@@ -5,7 +5,7 @@
     position: sticky;
     background-color: #57BA98;
     z-index: 100;
-    box-shadow: 0px 5px 8px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 8px -3px rgba(0,0,0,0.75);
 }
 
 .header__input{
