@@ -1,8 +1,17 @@
 import React from 'react';
 import "./Post.css";
-function Post() {
+function Post({profilePic, username, timestamp, message}) {
   return (
-    <div></div>
+    <div className='post'>
+        <div className='post__top'>
+            <Avatar src={profilePic}
+            className="post__avatar" />
+            <div className='post__topInfo'>
+                <h3>{username}</h3>
+                <p>Timestamp...</p>
+            </div>
+        </div>
+    </div>
   )
 }
 
