@@ -12,6 +12,9 @@ function Post({profilePic, username, timestamp, message}) {
                 <p>Timestamp...</p>
             </div>
         </div>
+        <div className='post__bottom'>
+            <p>{message}</p>
+        </div>
     </div>
   )
 }
