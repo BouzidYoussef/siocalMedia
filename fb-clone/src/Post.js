@@ -1,7 +1,7 @@
 import { Avatar } from '@material-ui/core';
 import React from 'react';
 import "./Post.css";
-function Post({profilePic, username, timestamp, message}) {
+function Post({profilePic, image, username, timestamp, message}) {
   return (
     <div className='post'>
         <div className='post__top'>
@@ -14,6 +14,9 @@ function Post({profilePic, username, timestamp, message}) {
         </div>
         <div className='post__bottom'>
             <p>{message}</p>
+        </div>
+        <div className='post__image'>
+          <img src={image} alt="" />
         </div>
     </div>
   )

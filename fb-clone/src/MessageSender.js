@@ -3,12 +3,13 @@ import React, { useState } from 'react';
 import "./MessageSender.css";
 
 function MessageSender() {
-    const [input, setInput] = useState('')
-
+    const [input, setInput] = useState('');
+    const [imageUrl, setImageUrl] = useState('');
     const handleSubmit= e =>{
       e.preventDefault();
 
       setInput("");
+      setImageUrl("");
     }
   return (
     <div className='messageSender'>
@@ -23,6 +24,10 @@ function MessageSender() {
                 onChange={e =>setInput(e.target.value)}
                 className='messageSender__input'
                 placeholder={"Mettre a jour"} />
+                <input 
+                value={imageUrl}
+                onChange={(e) => setImageUrl(e.target.value)}
+                placeholder="Lien d'image (Optionnel)"/>
                 <button onClick={handleSubmit} type="submit">
                   Hidden submit
                 </button>
