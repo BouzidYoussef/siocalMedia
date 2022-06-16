@@ -1,6 +1,7 @@
 import { Avatar } from '@material-ui/core';
 import React from 'react';
 import "./Post.css";
+import FavoriteTwoToneIcon from '@material-ui/icons/FavoriteTwoTone';
 function Post({profilePic, image, username, timestamp, message}) {
   return (
     <div className='post'>
@@ -17,6 +18,12 @@ function Post({profilePic, image, username, timestamp, message}) {
         </div>
         <div className='post__image'>
           <img src={image} alt="" />
+        </div>
+        <div className='post__options'>
+          <div className='post__option'>
+            <FavoriteTwoToneIcon />
+            <p>J'adore</p>
+          </div>
         </div>
     </div>
   )
